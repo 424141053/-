@@ -1,0 +1,22 @@
+# 核心依赖
+opencv-python>=4.5.0
+ultralytics>=8.0.0
+numpy>=1.21.0
+requests>=2.25.0
+
+# ROS相关 (可选)
+rospy
+std_msgs
+
+# 腾讯云语音合成
+tencentcloud-sdk-python>=3.0.0
+
+# 音频处理
+simpleaudio>=1.0.4
+pydub>=0.25.0
+
+# 邮件发送
+# 系统自带smtplib，无需额外安装
+
+# 其他工具
+Pillow>=8.0.0
